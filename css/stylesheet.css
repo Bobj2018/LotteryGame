@@ -1,0 +1,27 @@
+.container {
+ /*background-color: purple;*/
+}
+
+ul li {
+	list-style: none;
+	float: left;
+	font-size: 5em;
+	margin: 10px;
+	text-align: center;
+}
+
+.hideDIV {
+	display: none;
+}
+
+input {
+	font-size: 2em;
+	width: 15%;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
