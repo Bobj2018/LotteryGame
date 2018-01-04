@@ -14,14 +14,14 @@ ul li {
 	display: none;
 }
 
-input {
+input[type="number"] {
 	font-size: 2em;
 	width: 15%;
 
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="submit"] {
+	font-size: 2em;
+	width: 75%;
+	margin: 0 auto;
 }

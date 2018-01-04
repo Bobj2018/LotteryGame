@@ -10,12 +10,12 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
+		<div class="row" >
 			<div class="col-md-12">
 				<h1 class="text-center">Lottery Game</h1>
 			</div>
 		</div>
-		<div class="hideDIV row">
+		<div class="hideDIV row" id="randomDiv">
 			<div class="col md 12">
 				<h2>Lottery Numbers</h2>
 				<ul >
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		
-		<div class="hideDIV  row">
+		<div class="hideDIV  row" id="userDiv">
 			<div class="col md 12">
 				<h2>User's Numbers</h2>
 				<ul class="hideUL">
@@ -42,16 +42,17 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" id="formDiv">
 			<div class="col-md-12">
 				<h2>Guess 6 Numbers</h2>
-				<form action="/">
+				<form id="numberForm" action="/">
 					<input type="number" name="">
 					<input type="number" name="">
 					<input type="number" name="">
 					<input type="number" name="">
 					<input type="number" name="">
 					<input type="number" name="">
+					<input id="subBtn" type="submit">
 				</form>
 			</div>
 		</div>
