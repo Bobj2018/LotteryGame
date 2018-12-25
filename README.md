@@ -1,6 +1,6 @@
 Jan. 5th, 2018
--Added lottery and user guess display
--Added color coded answers
+- Added lottery and user guess display
+- Added color coded answers
 
 JAN. 3RD, 2018
 - Added a submit button
